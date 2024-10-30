@@ -7,7 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./assets/styles/bootstrap.custom.css";
-import "./assets/styles/index.css";
+import "./assets/styles/style.css";
 import App from "./App";
 import HomeScreen from "./screens/HomeScreen";
 import ProjectScreen from "./screens/ProjectScreen";

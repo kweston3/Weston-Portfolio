@@ -10,10 +10,13 @@ const Project = ({ project }) => {
 
       <Card.Body>
         <Link to={`/project/${project._id}`}>
-          <Card.Title as="div">
+          <Card.Title as="div" className="project-title">
             <strong>{project.name}</strong>
           </Card.Title>
         </Link>
+        <Card.Text className="project-description">
+          {project.description}
+        </Card.Text>
       </Card.Body>
     </Card>
   );

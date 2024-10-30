@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { Row, Col, Image, ListGroup, Card, Button } from "react-bootstrap";
+import { Row, Col, Image, ListGroup, Button } from "react-bootstrap";
 import projects from "../projects";
 
 const ProjectScreen = () => {
@@ -12,7 +12,7 @@ const ProjectScreen = () => {
       <Link className="btn btn-light my-3" to="/">
         Go Back
       </Link>
-      <Row>
+      <Row className="my-2">
         <Col md={5}>
           <Image src={project.image} alt={project.name} fluid />
         </Col>
